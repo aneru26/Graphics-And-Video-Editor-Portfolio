@@ -1261,4 +1261,78 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------\n# Footer\n--------------------------------------------------------------*/\n.footer {\n  margin-top: 30px;\n  padding: 30px 0;\n  font-size: 14px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n}\n\n.footer .copyright {\n  text-align: center;\n  color: rgba(255, 255, 255, 0.5);\n}\n\n.footer .copyright strong {\n  color: rgba(255, 255, 255, 0.8);\n}\n\n.footer .footer-links {\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  margin-bottom: 15px;\n}\n\n.footer .footer-links a {\n  color: rgba(255, 255, 255, 0.5);\n  font-size: 13px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  transition: 0.3s;\n}\n\n.footer .footer-links a:hover {\n  color: var(--color-primary);\n}\n\n.footer .footer-social {\n  display: flex;\n  justify-content: center;\n  gap: 14px;\n  margin-bottom: 18px;\n}\n\n.footer .footer-social a {\n  width: 36px;\n  height: 36px;\n  border-radius: 50%;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  color: rgba(255, 255, 255, 0.5);\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  transition: all 0.3s;\n}\n\n.footer .footer-social a:hover {\n  background: var(--color-primary);\n  border-color: var(--color-primary);\n  color: #fff;\n}\n\n.footer .credits {\n  padding-top: 6px;\n  text-align: center;\n  font-size: 13px;\n  color: rgba(255, 255, 255, 0.8);\n}\n\n.footer .credits a {\n  color: var(--color-primary);\n}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  margin-top: 30px;
+  padding: 30px 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .copyright strong {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.footer .footer-links a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.footer .footer-links a:hover {
+  color: var(--color-primary);
+}
+
+.footer .footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.footer .footer-social a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.footer .footer-social a:hover {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.footer .credits {
+  padding-top: 6px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .credits a {
+  color: var(--color-primary);
+}
