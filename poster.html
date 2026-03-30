@@ -17,7 +17,8 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,10 +38,7 @@
   <div class="container-fluid d-flex align-items-center justify-content-between">
 
     <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
       <i class="bi bi-pen"></i>
-
       <h1>Nel</h1>
     </a>
 
@@ -74,7 +72,7 @@
       <a href="mailto:arneltagupa1431@gmail.com" class="gmail"><i class="bi bi-envelope-fill"></i></a>
       <a href="https://www.facebook.com/arnel.chainsmoker/" class="facebook"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/tagupa.arnel/" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
     <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -82,19 +80,16 @@
   </div>
 </header><!-- End Header -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main id="main" data-aos="fade" data-aos-delay="200">
 
     <!-- ======= End Page Header ======= -->
     <div class="page-header d-flex align-items-center">
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2>Poster & Thumbnail Design</h2>
-<p>Elevate your visual presence with our poster and thumbnail design service. Whether you need eye-catching posters for events or striking thumbnails for your online content, we've got you covered. Our designs are crafted to captivate your audience and enhance your brand identity. Let us help you make a memorable impression with our creative designs!</p>
-
-
-<a class="cta-btn" href="https://drive.google.com/drive/folders/1YUN0qdrfp_kNHfhcUN1Go4U5KMnpXCUu?usp=sharing">More Sample Graphics</a>
-
+            <h2>Poster &amp; Thumbnail Design</h2>
+            <p>Eye-catching posters and thumbnails designed to captivate your audience and enhance your brand identity across all platforms.</p>
+            <a class="cta-btn" href="https://drive.google.com/drive/folders/1YUN0qdrfp_kNHfhcUN1Go4U5KMnpXCUu?usp=sharing">More Sample Graphics</a>
           </div>
         </div>
       </div>
@@ -104,10 +99,15 @@
     <section id="gallery" class="gallery">
       <div class="container-fluid">
 
+        <div class="section-header text-center">
+          <h2>Graphics</h2>
+          <p>Posters &amp; Thumbnails</p>
+        </div>
+
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/08-23-23.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/08-23-23.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/08-23-23.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
              
@@ -117,7 +117,7 @@
         
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/343578000_248293661018949_1797446553029815988_n.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/343578000_248293661018949_1797446553029815988_n.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/343578000_248293661018949_1797446553029815988_n.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -127,7 +127,7 @@
        
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/348368341_281724284185187_9185548315541228301_n.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/348368341_281724284185187_9185548315541228301_n.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/348368341_281724284185187_9185548315541228301_n.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -137,7 +137,7 @@
     
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/BAD NEWS.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/BAD NEWS.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/BAD NEWS.png" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -146,7 +146,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/CYBERSECURITY 101.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/CYBERSECURITY 101.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/CYBERSECURITY 101.png" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -155,7 +155,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/CYBERSECURITY TIPS FOR.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/CYBERSECURITY TIPS FOR.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/CYBERSECURITY TIPS FOR.png" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -164,7 +164,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Thumbnail1.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Thumbnail1.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Thumbnail1.png" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -173,7 +173,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Thumbnail4.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Thumbnail4.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Thumbnail4.png" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -182,7 +182,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/HOW TO MAKE YOUR STARTUP ACCOUNTING FIRM.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/HOW TO MAKE YOUR STARTUP ACCOUNTING FIRM.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/HOW TO MAKE YOUR STARTUP ACCOUNTING FIRM.png" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -191,7 +191,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Jobtest 2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/Jobtest 2.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Jobtest 2.jpg" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -200,7 +200,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Jobtest.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/Jobtest.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Jobtest.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -209,7 +209,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Mentoring Final.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/Mentoring Final.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Mentoring Final.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -218,7 +218,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Recover Your Purpose 1.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Recover Your Purpose 1.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Recover Your Purpose 1.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -227,7 +227,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Recover Your Purpose 2.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Recover Your Purpose 2.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Recover Your Purpose 2.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -236,7 +236,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Recover Your Purpose 3.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Recover Your Purpose 3.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Recover Your Purpose 3.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -245,7 +245,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Recover Your Purpose 1.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Recover Your Purpose 1.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Recover Your Purpose 1.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -254,7 +254,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/SC_11-12-23.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/SC_11-12-23.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/SC_11-12-23.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -263,7 +263,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/SC_11-26-23.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/SC_11-26-23.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/SC_11-26-23.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -272,7 +272,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/SC_12-17-23.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/SC_12-17-23.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/SC_12-17-23.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -281,7 +281,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/SC_Christmas2024 2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/SC_Christmas2024 2.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/SC_Christmas2024 2.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -290,7 +290,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Sunday Cell Celebration 1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/Sunday Cell Celebration 1.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Sunday Cell Celebration 1.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -299,7 +299,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Sunday Cell Celebration 2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/poster/Sunday Cell Celebration 2.jpg" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Sunday Cell Celebration 2.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -308,7 +308,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Sunday Cell Celebration 3.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Sunday Cell Celebration 3.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Sunday Cell Celebration 3.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -317,7 +317,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Sunday Cell Celebration.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Sunday Cell Celebration.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Sunday Cell Celebration.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -327,7 +327,7 @@
         
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/TECH ROUND TABLE.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/TECH ROUND TABLE.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/TECH ROUND TABLE.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -336,7 +336,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Thumbnail 2.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Thumbnail 2.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Thumbnail 2.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -345,7 +345,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Thumbnail Men.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Thumbnail Men.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Thumbnail Men.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -354,7 +354,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/poster/Thumbnail.png" class="img-fluid" alt="">
+              <img src="assets/img/poster/Thumbnail.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/poster/Thumbnail.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -371,10 +371,21 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Nel</span></strong>. All Rights Reserved
+      <div class="footer-social">
+        <a href="mailto:arneltagupa1431@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        <a href="https://www.facebook.com/arnel.chainsmoker/" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/tagupa.arnel/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
       </div>
-     
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="copyright">
+        &copy; 2024 <strong><span>Nel</span></strong>. All Rights Reserved
+      </div>
     </div>
   </footer><!-- End Footer -->
 

@@ -14,12 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      setTimeout(() => {
-        preloader.classList.add('loaded');
-      }, 1000);
+      preloader.classList.add('loaded');
       setTimeout(() => {
         preloader.remove();
-      }, 2000);
+      }, 500);
     });
   }
 
@@ -161,15 +159,13 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 400,
       easing: 'ease-in-out',
       once: true,
       mirror: false
     });
   }
-  window.addEventListener('load', () => {
-    aos_init();
-  });
+  aos_init();
 
 });
 

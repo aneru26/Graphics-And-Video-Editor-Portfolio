@@ -17,7 +17,8 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,10 +39,7 @@
   <div class="container-fluid d-flex align-items-center justify-content-between">
 
     <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
       <i class="bi bi-pen"></i>
-
       <h1>Nel</h1>
     </a>
 
@@ -60,7 +58,7 @@
             <li class="dropdown"><a href="#"><span>Videos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
                 <li><a href="videos.html">IG Reels</a></li>
-                <li><a href="#">Social Media</a></li>
+                <li><a href="socialmedia.html">Social Media</a></li>
               </ul>
             </li>
             <li><a href="gallery.html">Ads</a></li>
@@ -75,7 +73,7 @@
       <a href="mailto:arneltagupa1431@gmail.com" class="gmail"><i class="bi bi-envelope-fill"></i></a>
       <a href="https://www.facebook.com/arnel.chainsmoker/" class="facebook"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/tagupa.arnel/" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
     <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -83,7 +81,7 @@
   </div>
 </header><!-- End Header -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main id="main" data-aos="fade" data-aos-delay="200">
 
     <!-- ======= End Page Header ======= -->
     <div class="page-header d-flex align-items-center">
@@ -91,11 +89,8 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
             <h2>Banner Design</h2>
-            <p>Looking to make a bold statement and grab attention? Our banner design service is tailored to your needs. Whether it's for an event, promotion, or branding campaign, we'll create captivating banners that effectively convey your message and leave a lasting impression on your audience. Let's collaborate to bring your vision to life!</p>
-            
-
+            <p>Bold, attention-grabbing banners crafted for events, promotions, and branding campaigns that effectively convey your message and leave a lasting impression.</p>
             <a class="cta-btn" href="https://drive.google.com/drive/folders/1YUN0qdrfp_kNHfhcUN1Go4U5KMnpXCUu?usp=sharing">More Sample Graphics</a>
-
           </div>
         </div>
       </div>
@@ -105,10 +100,15 @@
     <section id="gallery" class="gallery">
       <div class="container-fluid">
 
+        <div class="section-header text-center">
+          <h2>Graphics</h2>
+          <p>Banner Designs</p>
+        </div>
+
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/07-Hero Banner Desktop_1920 × 662.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/07-Hero Banner Desktop_1920 × 662.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/07-Hero Banner Desktop_1920 × 662.png" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
              
@@ -118,7 +118,7 @@
         
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/BFS_Task 1.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/BFS_Task 1.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/BFS_Task 1.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -128,7 +128,7 @@
        
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/BFS_Tasknew 1.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/BFS_Tasknew 1.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/BFS_Tasknew 1.png" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -138,7 +138,7 @@
     
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/New Year New You _US Desktop - 1920x938 3.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/New Year New You _US Desktop - 1920x938 3.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/New Year New You _US Desktop - 1920x938 3.png" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -147,7 +147,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/New Year New You _US Desktop - 1920x938 v 4.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/New Year New You _US Desktop - 1920x938 v 4.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/New Year New You _US Desktop - 1920x938 v 4.png" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -156,7 +156,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/New Year New You _US Desktop - 1920x938.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/New Year New You _US Desktop - 1920x938.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/New Year New You _US Desktop - 1920x938.png" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -165,7 +165,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/UK Hero Banner Desktop - 1920 × 662.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/UK Hero Banner Desktop - 1920 × 662.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/UK Hero Banner Desktop - 1920 × 662.png" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -174,7 +174,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/UK Menu Bar - 448 × 184.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/UK Menu Bar - 448 × 184.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/UK Menu Bar - 448 × 184.png" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -183,7 +183,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/08-Hero Banner Mobile_828 × 918.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/08-Hero Banner Mobile_828 × 918.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/08-Hero Banner Mobile_828 × 918.png" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -192,7 +192,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/BFS_Task 3.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/BFS_Task 3.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/BFS_Task 3.png" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -201,7 +201,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/BFS_Tasknew 2.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/BFS_Tasknew 2.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/BFS_Tasknew 2.png" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
@@ -210,7 +210,7 @@
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/banner/UK Hero Banner Mobile - 828 × 918.png" class="img-fluid" alt="">
+              <img src="assets/img/banner/UK Hero Banner Mobile - 828 × 918.png" class="img-fluid" alt="" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/img/banner/UK Hero Banner Mobile - 828 × 918.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                
@@ -228,10 +228,21 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Nel</span></strong>. All Rights Reserved
+      <div class="footer-social">
+        <a href="mailto:arneltagupa1431@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        <a href="https://www.facebook.com/arnel.chainsmoker/" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/tagupa.arnel/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
       </div>
-   
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="copyright">
+        &copy; 2024 <strong><span>Nel</span></strong>. All Rights Reserved
+      </div>
     </div>
   </footer><!-- End Footer -->
 

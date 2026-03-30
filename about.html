@@ -17,7 +17,8 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,13 +30,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: PhotoFolio
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -45,10 +39,7 @@
   <div class="container-fluid d-flex align-items-center justify-content-between">
 
     <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
       <i class="bi bi-pen"></i>
-
       <h1>Nel</h1>
     </a>
 
@@ -61,14 +52,13 @@
             <li class="dropdown"><a href="#"><span>Graphics</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
                 <li><a href="banner.html">Banner</a></li>
-                <li><a href="#">Logo Designer</a></li>
-                <li><a href="#">Poster</a></li>
+                <li><a href="poster.html">Poster</a></li>
               </ul>
             </li>
             <li class="dropdown"><a href="#"><span>Videos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
-                <li><a href="#">IG Reels</a></li>
-                <li><a href="#">Social Media</a></li>
+                <li><a href="videos.html">IG Reels</a></li>
+                <li><a href="socialmedia.html">Social Media</a></li>
               </ul>
             </li>
             <li><a href="gallery.html">Ads</a></li>
@@ -83,7 +73,7 @@
       <a href="mailto:arneltagupa1431@gmail.com" class="gmail"><i class="bi bi-envelope-fill"></i></a>
       <a href="https://www.facebook.com/arnel.chainsmoker/" class="facebook"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/tagupa.arnel/" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
     <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -91,7 +81,7 @@
   </div>
 </header><!-- End Header -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main id="main" data-aos="fade" data-aos-delay="200">
 
     <!-- ======= End Page Header ======= -->
     <div class="page-header d-flex align-items-center">
@@ -99,11 +89,8 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
             <h2>About Me</h2>
-            <p>Hi there! I'm a passionate graphic designer and video editor based in the Philippines. I specialize in creating captivating visual experiences that communicate effectively and leave a lasting impact. With a keen eye for detail and a flair for creativity, I bring ideas to life through stunning designs and compelling video content. Let's work together to bring your vision to reality!</p>
-            
+            <p>Passionate graphic designer and video editor based in the Philippines, dedicated to creating visual experiences that leave a lasting impact.</p>
             <a class="cta-btn" href="contact.html">Available for hire</a>
-            
-
           </div>
         </div>
       </div>
@@ -115,27 +102,24 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/profile.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profile.jpg" class="img-fluid" alt="Arnel Tagupa" loading="lazy">
           </div>
           <div class="col-lg-5 content">
-            <h2>Professional Graphic Designer and Video Editor from the Philippines</h2>
-<p class="fst-italic py-3">
-  Creative problem solver with a passion for visual storytelling. Bringing ideas to life through captivating designs and compelling video content.
-</p>
+            <h2>Professional Graphic Designer &amp; Video Editor</h2>
+            <p class="fst-italic py-3">
+              Creative problem solver with a passion for visual storytelling. Bringing ideas to life through captivating designs and compelling video content.
+            </p>
 
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>26 April 2000</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+6399055645149</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Butuan City, Phillipines</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+639 905 5645 149</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Butuan City, Philippines</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>arneltagupa1431@gmail.com</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
@@ -143,10 +127,10 @@
             </div>
             <p class="py-3">
               Passionate about transforming concepts into engaging visuals and impactful narratives. Specializing in graphic design and video editing, I am dedicated to delivering compelling content that resonates with audiences.
-          </p>
-          <p class="m-0">
+            </p>
+            <p class="m-0">
               With a meticulous eye for detail and a knack for storytelling, I strive to exceed expectations and bring visions to life. Let's collaborate and create something remarkable together.
-          </p>
+            </p>
           </div>
         </div>
 
@@ -160,10 +144,21 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Nel</span></strong>. All Rights Reserved
+      <div class="footer-social">
+        <a href="mailto:arneltagupa1431@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        <a href="https://www.facebook.com/arnel.chainsmoker/" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/tagupa.arnel/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/arnel-tagupa-ba70b8272/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
       </div>
-   
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="copyright">
+        &copy; 2024 <strong><span>Nel</span></strong>. All Rights Reserved
+      </div>
     </div>
   </footer><!-- End Footer -->
 
